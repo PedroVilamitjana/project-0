@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*########################### Body ############################*/
+nav,
+aside {
+
+    padding: 2px;
+
+}
+
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f0f0f5;
+
+}
+
+
+main {
+
+    margin: 0 auto;
+    padding: 0;
+    width: 98%;
+    overflow: hidden;
+
+}
+
+article {
+
+    width: 800px;
+    margin: 70px;
+    float: left;
+    overflow: hidden;
+}
+
+aside {
+    margin: 10px;
+    margin-top: 120px;
+    margin-left: 25px;
+    border-radius: 1.5rem;
+    padding: 40px;
+    background-color: #f0f0f5;
+    float: right;
+}
+
+footer {
+    clear: both;
+}
+
+div.infoPlus h2 {
+
+    margin-left: 2px;
+    margin-bottom: 43px;
+    padding-left: 0;
+
+}
+
+/*################### fonts ########################*/
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    margin: 5px;
+
+}
+
+aside h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 15px 15px 0px 0px;
+}
+
+article p {
+
+    margin: 12px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+header p {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+aside p {
+
+    margin: 0px 10px 10px 0px;
+    padding: 0px 0px 15px;
+    width: 240px;
+
+
+}
+
+
+/* ----------------   Images   -------------------- */
+
+aside img {
+    border-radius: 1.5rem;
+    box-shadow: -1px 2px 20px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 2px 20px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 20px -3px rgba(0, 0, 0, 0.75);
+}
+
+article img {
+    padding: 15px;
+
+}
+
+.dolar {
+    width: 180px;
+    height: 120px;
+}
+
+.samsung {
+    width: 180px;
+    height: 140px;
+}
+
+.windows {
+    width: 180px;
+    height: 120px;
+}
