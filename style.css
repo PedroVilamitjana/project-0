@@ -21,7 +21,8 @@ nav ul {
 
 }
 
-nav ul li a {
+nav ul li a,
+div.poorfoot li.leftFooter a {
     margin: 0 auto;
     padding: 15px;
     float: left;
@@ -91,6 +92,34 @@ aside {
 
 footer {
     clear: both;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f0f0f5;
+    overflow: hidden;
+}
+
+div.poorfoot li {
+    margin: 5px;
+    padding: 5px;
+    display: block;
+
+}
+
+div.poorfoot li.rightFooter {
+    float: left;
+
+}
+
+div.poorfoot li img {
+    margin: 5px;
+    padding: 5px;
+    width: 50px;
+
+}
+
+div.poorfoot li.leftFooter {
+    float: right;
 }
 
 div.infoPlus h2 {
@@ -101,6 +130,7 @@ div.infoPlus h2 {
 
 }
 
+
 /*################### fonts ########################*/
 
 h1 {
@@ -108,6 +138,12 @@ h1 {
     font-size: 60px;
     margin: 0;
 
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 aside h2 {
